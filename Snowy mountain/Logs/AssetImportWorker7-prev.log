@@ -1,0 +1,532 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.20f1c1 (7cf0fbd73406) revision 8188155'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16253 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\Unity Hub\2021.3.20f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/Unity/GuJi
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+58015
+Successfully changed project path to: D:/Unity/GuJi
+D:/Unity/GuJi
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [39568] Host "[IP] 192.168.31.25 [Port] 0 [Flags] 2 [Guid] 3250114595 [EditorId] 3250114595 [Version] 1048832 [Id] WindowsEditor(7,19-th) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [39568] Host "[IP] 192.168.31.25 [Port] 0 [Flags] 2 [Guid] 3250114595 [EditorId] 3250114595 [Version] 1048832 [Id] WindowsEditor(7,19-th) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 74.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.20f1c1 (7cf0fbd73406)
+[Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/2021.3.20f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/GuJi/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5980 MB
+    Driver:   27.21.14.5749
+Initialize mono
+Mono path[0] = 'D:/Unity/Unity Hub/2021.3.20f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/Unity Hub/2021.3.20f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/Unity Hub/2021.3.20f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56668
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/Unity Hub/2021.3.20f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002635 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 72.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.603 seconds
+Domain Reload Profiling:
+	ReloadAssembly (604ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (411ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (96ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (237ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (73ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010322 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GuJi\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GuJi\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1011ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (776ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (339ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3216 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (184.9 KB). Loaded Objects now: 3681.
+Memory consumption went from 188.4 MB to 188.3 MB.
+Total: 2.877700 ms (FindLiveObjects: 0.282200 ms CreateObjectMapping: 0.086600 ms MarkObjects: 2.372900 ms  DeleteObjects: 0.134500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012138 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GuJi\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\GuJi\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (247ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (348ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3208 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (151.6 KB). Loaded Objects now: 3696.
+Memory consumption went from 188.0 MB to 187.8 MB.
+Total: 2.863600 ms (FindLiveObjects: 0.272100 ms CreateObjectMapping: 0.098600 ms MarkObjects: 2.359700 ms  DeleteObjects: 0.131800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1717933.491630 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Bathtub_MetallicSmooth.tif
+  artifactKey: Guid(d4766011bebe0f94f8852e78e1f2fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Bathtub_MetallicSmooth.tif using Guid(d4766011bebe0f94f8852e78e1f2fadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e66bb17472bf9a40e5a74c7507a562') in 0.131781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/VFX/CandleFlame.tif
+  artifactKey: Guid(e966fe96fc4c60f4fa9eff9e6d32ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/VFX/CandleFlame.tif using Guid(e966fe96fc4c60f4fa9eff9e6d32ba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853157ab1f87f147444774e811af644e') in 0.026062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/BathtubLeg_Normal.tif
+  artifactKey: Guid(dd1469f195c1e5b478a8dc9f78cbd78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/BathtubLeg_Normal.tif using Guid(dd1469f195c1e5b478a8dc9f78cbd78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf517e2ad4f1d436a4dd39acaf4dc03') in 0.071784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/CandleStick_Normal.tif
+  artifactKey: Guid(45ab703b0a5a43c4698f496148039fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/CandleStick_Normal.tif using Guid(45ab703b0a5a43c4698f496148039fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a04ed5eb5369e475cf7ede11c673b4ba') in 0.009962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/BedSide_Albedo.tif
+  artifactKey: Guid(b4d856ea788f6514cb8dc3c068fb48a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/BedSide_Albedo.tif using Guid(b4d856ea788f6514cb8dc3c068fb48a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91554bc21c5e499177026a301e79c200') in 0.040600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/Bed_Occlusion.tif
+  artifactKey: Guid(060bae91606084849a8ee3fdc288af12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/Bed_Occlusion.tif using Guid(060bae91606084849a8ee3fdc288af12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65d4b924740224a505f4a685b44b1fec') in 0.011692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/BathtubLeg_MetallicSmooth.tif
+  artifactKey: Guid(035b28d384a3fe44c96407179c34f574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/BathtubLeg_MetallicSmooth.tif using Guid(035b28d384a3fe44c96407179c34f574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a3453849c3cb2f1565c28aae4e496c') in 0.007181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/CandleStick_Albedo.tif
+  artifactKey: Guid(5cd10124400cb26478cd41db912ce90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/CandleStick_Albedo.tif using Guid(5cd10124400cb26478cd41db912ce90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462c43beef75e9f42f6ff9bb1efa32bb') in 0.009418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/BathtubLeg_Albedo.tif
+  artifactKey: Guid(8b0c12b29315a7d4dbe2e5aeb92f67ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/BathtubLeg_Albedo.tif using Guid(8b0c12b29315a7d4dbe2e5aeb92f67ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a898b1597c1eaf86ea518617ba297ca2') in 0.008610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.945753 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Chair_Albedo.tif
+  artifactKey: Guid(0508e5cdb1034b64eaf24691319937c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Chair_Albedo.tif using Guid(0508e5cdb1034b64eaf24691319937c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dc47e28f0e52c3adf0046f5e5a87d5') in 0.010790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Chair_Normals.tif
+  artifactKey: Guid(610c98ad363f4f94da068b2f4f743cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Chair_Normals.tif using Guid(610c98ad363f4f94da068b2f4f743cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a40db3e8b22519a8649fe8a7b4962058') in 0.009640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045280 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Clock_Albedo.tif
+  artifactKey: Guid(efe1f09805965e647a2bec8250b72349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Clock_Albedo.tif using Guid(efe1f09805965e647a2bec8250b72349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0770409474375be3ba90aa12b4acbb48') in 0.009764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Clock_MetallicSmooth.tif
+  artifactKey: Guid(18814287f2e3240419c37dd2a9abf1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Clock_MetallicSmooth.tif using Guid(18814287f2e3240419c37dd2a9abf1c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2337604497f9a0e913a9fca85f247f5') in 0.010688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.322063 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Cthulhu_Lamp_MetallicSmooth.tif
+  artifactKey: Guid(3b798118871b23b448abd87d74d29af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Cthulhu_Lamp_MetallicSmooth.tif using Guid(3b798118871b23b448abd87d74d29af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcea50befa948d1df043ea87cdd5821') in 0.010732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Cthulhu_Lamp_Normal.tif
+  artifactKey: Guid(8bf179a14d694db4cacb3a54934ee81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Cthulhu_Lamp_Normal.tif using Guid(8bf179a14d694db4cacb3a54934ee81f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e487694dcaab2590698e5c21f4d9e98f') in 0.009401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/DoorPost_Albedo.tif
+  artifactKey: Guid(09fbe434f49e3d14db90d6bcc8ab8383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/DoorPost_Albedo.tif using Guid(09fbe434f49e3d14db90d6bcc8ab8383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e11a4bfe4a5309f5ddd28fd476356a6') in 0.009112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.021372 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/DoorPost_Normal.tif
+  artifactKey: Guid(a2d1d6cc4343c544394bbc5abd74dff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/DoorPost_Normal.tif using Guid(a2d1d6cc4343c544394bbc5abd74dff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445f276e9454b4503b70d15628a31f71') in 0.012595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Fireplace_MetallicSmooth.tif
+  artifactKey: Guid(f632a9c02b56d5c45befbcf4bb4176aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Fireplace_MetallicSmooth.tif using Guid(f632a9c02b56d5c45befbcf4bb4176aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e89e904f34bb68b9cce4d4d15332bb6') in 0.009468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Fireplace_Normal.tif
+  artifactKey: Guid(213c09988023fa74986a1bc0b4d38103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Fireplace_Normal.tif using Guid(213c09988023fa74986a1bc0b4d38103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d247b4d52b79e9d9fc03750628ba226') in 0.009101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Fireplace_Occlusion.tif
+  artifactKey: Guid(8d729759afba04b47b3d471f834893af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Fireplace_Occlusion.tif using Guid(8d729759afba04b47b3d471f834893af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85dae46c235e331dcb2fc461d97974a4') in 0.008445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.414327 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Floor_Bathroom_Normal.tif
+  artifactKey: Guid(d028a69709938384faa0084792e6973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Floor_Bathroom_Normal.tif using Guid(d028a69709938384faa0084792e6973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a21ac76f2827a3bfca8583c9ff77da') in 0.010885 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Floor_Bathroom_Occlusion.tif
+  artifactKey: Guid(dc3be8bea457db34987416330563d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Floor_Bathroom_Occlusion.tif using Guid(dc3be8bea457db34987416330563d54a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a1fc3fcaa2e820d238b7b4d45df615f') in 0.011730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013179 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/Floor_Bedroom_Occlusion.tif
+  artifactKey: Guid(6a72bdf27ba4ba14ebcc99cbd89cf631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/Floor_Bedroom_Occlusion.tif using Guid(6a72bdf27ba4ba14ebcc99cbd89cf631) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '632bf6d9b01ca7139530723fb3150295') in 0.009951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Floor_Corridor_Normal.tif
+  artifactKey: Guid(1dc04ec508d282843970c5096c883ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Floor_Corridor_Normal.tif using Guid(1dc04ec508d282843970c5096c883ac9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae473b73b29271311f95da5a96bcdf25') in 0.009810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033083 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Floor_Diningroom_Albedo.tif
+  artifactKey: Guid(daabdafdc2d4a3b4b820f224213f0035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Floor_Diningroom_Albedo.tif using Guid(daabdafdc2d4a3b4b820f224213f0035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63fd1dcc7584d5880869279d2e94562c') in 0.009168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Floor_Diningroom_Occlusion.tif
+  artifactKey: Guid(08fd24a9e0dad8740a10ee143dffaa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Floor_Diningroom_Occlusion.tif using Guid(08fd24a9e0dad8740a10ee143dffaa5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29a532275653da0346c618a67225ef2') in 0.009773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.271403 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/FramedPicture_Normal.tif
+  artifactKey: Guid(9bbe29cc5db8feb4c99e20b58bd94afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/FramedPicture_Normal.tif using Guid(9bbe29cc5db8feb4c99e20b58bd94afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55ac7663fe77708f2df059f9ae8a39de') in 0.012736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/FramedPicture_Occlusion.tif
+  artifactKey: Guid(8cf5d7fc034b58d4aaab39e5037b538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/FramedPicture_Occlusion.tif using Guid(8cf5d7fc034b58d4aaab39e5037b538b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e53b57557d50b7b157798e2e9b8cf9') in 0.010091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037041 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Characters/Gargoyle_Albedo.tif
+  artifactKey: Guid(a5fd5ae3aaf893e4197df481b8c9346e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Characters/Gargoyle_Albedo.tif using Guid(a5fd5ae3aaf893e4197df481b8c9346e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba4f6c5fe5b94239a75cd87c93ef562') in 0.010773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Characters/Gargoyle_MetallicSmooth.tif
+  artifactKey: Guid(feedc85e522b87b4aa5051553a71fc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Characters/Gargoyle_MetallicSmooth.tif using Guid(feedc85e522b87b4aa5051553a71fc2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12e3c75cd6d6e07e246f70432515f74') in 0.011024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Characters/Gargoyle_Normal.tif
+  artifactKey: Guid(34c958df8066e254c9fe19021fb928f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Characters/Gargoyle_Normal.tif using Guid(34c958df8066e254c9fe19021fb928f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f1b0d5c8050b541b3ca37700a8cc1db') in 0.008362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.258387 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/TutorialInfo/Icons/icon_tutorial_package.png
+  artifactKey: Guid(6756ed7b80223ac4e8f026ce27541de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/TutorialInfo/Icons/icon_tutorial_package.png using Guid(6756ed7b80223ac4e8f026ce27541de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7427ea21dc564e2c53399c05f866c875') in 0.025318 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Characters/JohnLemon_Albedo.tif
+  artifactKey: Guid(e20889403221e4d4a939367b675af181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Characters/JohnLemon_Albedo.tif using Guid(e20889403221e4d4a939367b675af181) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5912b2b9f21642820d44a0507897f55') in 0.016179 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.034814 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Light_Normal.tif
+  artifactKey: Guid(94b0af9e2dc9dc144a9fee2252e35c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Light_Normal.tif using Guid(94b0af9e2dc9dc144a9fee2252e35c5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb32347095b73d0ee87b2e92db8c68a5') in 0.011549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017009 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Mirror_MetallicSmooth.tif
+  artifactKey: Guid(f2897444e56a62f45813d612a9ae6726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Mirror_MetallicSmooth.tif using Guid(f2897444e56a62f45813d612a9ae6726) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7495ef97c40a421304c2b00060dd6ae') in 0.009853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Mirror_Normal.tif
+  artifactKey: Guid(f39e87291c3236f4fb7f42c125ce2502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Mirror_Normal.tif using Guid(f39e87291c3236f4fb7f42c125ce2502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59a7959cfc0e159f3c22ac494ec771a') in 0.009306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/VFX/perlinNoise.png
+  artifactKey: Guid(1ea576fbbfaeef64ca6136d38ccca74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/VFX/perlinNoise.png using Guid(1ea576fbbfaeef64ca6136d38ccca74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b010fb2bb2aeb5f368ff8a55d25662') in 0.011310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.262492 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Pipe_MetallicSmooth.tif
+  artifactKey: Guid(7da4809b977474d4695da2f3933ff430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Pipe_MetallicSmooth.tif using Guid(7da4809b977474d4695da2f3933ff430) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8398c5a3a430addb1c943912d2ef6435') in 0.010861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Pipe_Normal.tif
+  artifactKey: Guid(a9fc6e48f7f8fe8438c73bb972362259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Pipe_Normal.tif using Guid(a9fc6e48f7f8fe8438c73bb972362259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99e858b8b02ffe74e5eb71b01e4166b') in 0.011364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043201 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Radiator_Normal.tif
+  artifactKey: Guid(0106aeee9b63e1043a45c32b560576de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Radiator_Normal.tif using Guid(0106aeee9b63e1043a45c32b560576de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5238ff4b9237f4637013a9e940d151') in 0.011158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Rug_Albedo.tif
+  artifactKey: Guid(a4e930220a796944783b228565f03152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Rug_Albedo.tif using Guid(a4e930220a796944783b228565f03152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba44b19e361158ec9f21cc6e8fcde301') in 0.011777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.143934 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Sink_MetallicSmooth.tif
+  artifactKey: Guid(21c4410ea00f38b40854a36ae65ad2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Sink_MetallicSmooth.tif using Guid(21c4410ea00f38b40854a36ae65ad2f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68453c2194e02ea506e1bc2b606ef813') in 0.013868 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Sink_Normal.tif
+  artifactKey: Guid(23f65d9c07a8f734a9303a1b91f19e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BathRoom/Sink_Normal.tif using Guid(23f65d9c07a8f734a9303a1b91f19e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced84a0e7064c30bdecf68a3301cfc80') in 0.040830 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.089614 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/VFX/Splash04Normal.tif
+  artifactKey: Guid(73e81e5a6e5b6874582e6c6d405d7491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/VFX/Splash04Normal.tif using Guid(73e81e5a6e5b6874582e6c6d405d7491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc1abaefc2d06df8e4239a220e67113') in 0.029771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.234101 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Table_Occlusion.tif
+  artifactKey: Guid(87ed162bddc21c44e89dfeb850becb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/DiningRoom/Table_Occlusion.tif using Guid(87ed162bddc21c44e89dfeb850becb30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2f64c235c3656722ec200a0cb8f291') in 0.011293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059658 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/VFX/ToonRampTint4.png
+  artifactKey: Guid(faa6985ef413994478c9d37d68e21fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/VFX/ToonRampTint4.png using Guid(faa6985ef413994478c9d37d68e21fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e87c12ad21e832326cde630f32930c8d') in 0.009735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.328741 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/Wall_Bedroom_Albedo.tif
+  artifactKey: Guid(dfc4afa012e49ff46b46da3e6572b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/Wall_Bedroom_Albedo.tif using Guid(dfc4afa012e49ff46b46da3e6572b712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68798ed2b955312b812e274f467d2d56') in 0.011939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047439 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Wall_Corridor_MetallicSmooth.tif
+  artifactKey: Guid(ba80831ff9ffb924f96dde6223f6fa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Wall_Corridor_MetallicSmooth.tif using Guid(ba80831ff9ffb924f96dde6223f6fa8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1147d589ca84fe5cb146661f15406b5a') in 0.012004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Wall_Corridor_Occlusion.tif
+  artifactKey: Guid(138b3f1830bb96746943e36fc9e19f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Wall_Corridor_Occlusion.tif using Guid(138b3f1830bb96746943e36fc9e19f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd14afc339d178fa350f22a071a34595') in 0.010969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.372461 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/Wardrobe_Occlusion.tif
+  artifactKey: Guid(16e5335c3e030e54f878363f16bac234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/BedRoom/Wardrobe_Occlusion.tif using Guid(16e5335c3e030e54f878363f16bac234) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e00331e184a1f8bf1ae6728e624311') in 0.012133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Window_Normal.tif
+  artifactKey: Guid(3773c8801f57fbc4fbf0fe19ef4d83f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UnityTechnologies/3DBeginnerTutorial/Art/Textures/Corridor/Window_Normal.tif using Guid(3773c8801f57fbc4fbf0fe19ef4d83f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b04d79393da98accd4e47843c817f12') in 0.012007 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
