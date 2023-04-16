@@ -1,4 +1,0 @@
-repository "huoshan@morganmwf@cloud.cn"
-  path "/"
-    br "/main"
-    co "/main"
